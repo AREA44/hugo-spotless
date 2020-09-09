@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/">SPOTLESS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+      	{{ range .Site.Menus.main }}
+      		<li class="nav-item">
+      			<a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+      		</li>
+      	{{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+{{ $image_header := "images/default_image_header.jpg" }}
+{{ if isset .Params "image_header" }}
+  {{ $image_header = .Params.image_header }}
+{{ end }}
+<header class="masthead" style = "background-image: url('{{ $image_header }}');">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light">{{ .Title }}</h1>
+        <p class="lead">{{ .Description }}</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+</style>

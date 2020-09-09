@@ -1,0 +1,17 @@
+name = "Spotless"
+license = "MIT"
+licenselink = "https://github.com/AREA44/hugo-spotless/blob/master/LICENSE"
+description = ""
+homepage = "https://github.com/AREA44/hugo-spotless"
+tags = ["tags"]
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "AREA44"
+  homepage = "https://github.com/AREA44"
+
+[original]
+  name = "AREA44"
+  homepage = "https://github.com/AREA44"
+  repo = "https://github.com/AREA44/hugo-spotless"
