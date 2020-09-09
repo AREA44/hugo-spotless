@@ -16,11 +16,7 @@
   </div>
 </nav>
 
-{{ $image_header := "images/default_image_header.jpg" }}
-{{ if isset .Params "image_header" }}
-  {{ $image_header = .Params.image_header }}
-{{ end }}
-<header class="masthead" style = "background-image: url('{{ $image_header }}');">
+  <header class="masthead">
   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
@@ -38,5 +34,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    {{ if .Params.image_header }}
+    background-image: url("{{ .Params.image_header | absURL }}");
+    {{ end }}
   }
 </style>
