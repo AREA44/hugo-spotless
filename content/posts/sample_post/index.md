@@ -1,6 +1,6 @@
 ---
 title: "Sample Post"
-image_header: "../../images/alley.jpg"
+feature_image: "./images/default.jpg"
 date: 2018-10-19T16:10:36-04:00
 draft: false
 tags: [ "one", "two" ]

@@ -34,8 +34,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    {{ if .Params.image_header }}
-    background-image: url("{{ .Params.image_header | absURL }}");
+    {{ if .Params.feature_image }}
+      background-image: url('{{ .Params.feature_image }}');
+    {{ else }}
+      background-color: gray;
     {{ end }}
   }
 </style>

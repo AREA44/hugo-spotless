@@ -4,9 +4,15 @@
     {{ range .Pages }}
     <div class="row">
       <div class="col-md-7">
-        <a href="{{ .URL | relURL }}">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-        </a>
+        {{ if .Params.feature_image }}
+          <a href="{{ .URL | relURL }}">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="{{ .URL | relURL }}{{ .Params.feature_image }}">
+          </a>
+        {{ else }}
+          <a href="{{ .URL | relURL }}">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="https://www.w3schools.com/w3css/img_snowtops.jpg">
+          </a>
+        {{ end }}
       </div>
       <div class="col-md-5">
         <h3>{{ .Title }}</h3>
