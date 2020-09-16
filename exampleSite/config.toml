@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://area44.github.io/hugo-spotless"
 languageCode = "en-us"
 title = "Spotless"
 description = "Hugo Spotless is a hugo template built with Bootstrap 5"
