@@ -25,7 +25,3 @@ hugo server
 - An `about/index.md` that is intended to provide the `/about/` page for a theme demo
 
 5. Publish your site
-
-```bash
-hugo -D
-```
