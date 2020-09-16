@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Spotless</title><link>https://area44.github.io/hugo-spotless/tags/</link><description>Recent content in Tags on Spotless</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 19 Oct 2018 16:54:29 -0400</lastBuildDate><atom:link href="https://area44.github.io/hugo-spotless/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>two</title><link>https://area44.github.io/hugo-spotless/tags/two/</link><pubDate>Fri, 19 Oct 2018 16:54:29 -0400</pubDate><guid>https://area44.github.io/hugo-spotless/tags/two/</guid><description/></item><item><title>one</title><link>https://area44.github.io/hugo-spotless/tags/one/</link><pubDate>Fri, 19 Oct 2018 16:10:36 -0400</pubDate><guid>https://area44.github.io/hugo-spotless/tags/one/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Spotless</title>
+    <link>https://area44.github.io/hugo-spotless/tags/</link>
+    <description>Recent content in Tags on Spotless</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Oct 2018 16:54:29 -0400</lastBuildDate><atom:link href="https://area44.github.io/hugo-spotless/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>two</title>
+      <link>https://area44.github.io/hugo-spotless/tags/two/</link>
+      <pubDate>Fri, 19 Oct 2018 16:54:29 -0400</pubDate>
+      
+      <guid>https://area44.github.io/hugo-spotless/tags/two/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>one</title>
+      <link>https://area44.github.io/hugo-spotless/tags/one/</link>
+      <pubDate>Fri, 19 Oct 2018 16:10:36 -0400</pubDate>
+      
+      <guid>https://area44.github.io/hugo-spotless/tags/one/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
