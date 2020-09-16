@@ -4,7 +4,6 @@ title = "Spotless"
 description = "Hugo Spotless is a hugo template built with Bootstrap 5"
 theme = "hugo-spotless"
 relativeURLs = true
-publishDir = "docs"
 
 [menu]
   [[menu.main]]
