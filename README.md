@@ -10,13 +10,13 @@ Hugo Spotless is a hugo template built with Bootstrap 5.
 
 ```bash
 git clone https://github.com/AREA44/hugo-spotless.git
-cd hugo-spotless
+cd hugo-spotless/exampleSite
 ```
 
 3. Run Hugo
 
 ```bash
-hugo server
+hugo server --themesDir ../..
 ```
 
 4. Under `/content/` this repository contains the following:
